@@ -1,0 +1,130 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+header h1 {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a.btn {
+  padding: 10px 20px;
+  background-color: #3498db;
+  border-radius: 5px;
+  margin: 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+a.btn:hover {
+  background-color: #2980b9;
+}
+
+section.notes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.note {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+}
+
+.note h2 {
+  color: #2c3e50;
+}
+
+.note p {
+  color: #7f8c8d;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actions .btn {
+  background-color: #e74c3c;
+  margin-top: 10px;
+}
+
+.actions .btn:hover {
+  background-color: #c0392b;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #2980b9;
+}
+.note {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.note.important {
+  background-color: #ffeb3b; /* رنگ پس‌زمینه برای یادداشت‌های مهم */
+  border-left: 5px solid #ff9800; /* خط سمت چپ برای یادداشت‌های مهم */
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.delete-btn {
+  background-color: #f44336;
+}
